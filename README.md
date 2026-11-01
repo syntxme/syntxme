@@ -14,11 +14,11 @@
 │                                                                              │
 │ ── neofetch ──────────────────────────────────────────────────────────────── │
 │                                                                              │
-│     /\_/\       Role      Founder &amp; developer                                │
-│    ( ^.^ )      Location  Tashkent, Uzbekistan                               │
-│    /  ♥  \      Building  the Kawaii ecosystem                               │
-│   ( |   | )     Stack     Rust · Svelte · Tauri · Next.js                    │
-│    \_\_/_/      Data      PostgreSQL · Redis · Cloudflare R2                 │
+│   ███████       Role      Founder &amp; developer                                │
+│   ██            Location  Tashkent, Uzbekistan                               │
+│   ███████       Building  the Kawaii ecosystem                               │
+│        ██       Stack     Rust · Svelte · Tauri · Next.js                    │
+│   ███████       Data      PostgreSQL · Redis · Cloudflare R2                 │
 │                                                                              │
 │ ── systemctl status kawaii-* ─────────────────────────────────────────────── │
 │                                                                              │

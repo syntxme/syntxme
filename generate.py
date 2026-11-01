@@ -169,9 +169,9 @@ def render():
     L += [row(center(f"[ {nav} ]")), row()]
 
     L += [heading("neofetch"), row()]
-    cat = [r"    /\_/\  ", r"   ( ^.^ ) ", r"   /  ♥  \ ", r"  ( |   | )", r"   \_\_/_/ "]
+    logo = ["  ███████  ", "  ██       ", "  ███████  ", "       ██  ", "  ███████  "]
     info = ["Role      Founder & developer", "Location  Tashkent, Uzbekistan", "Building  the Kawaii ecosystem", "Stack     Rust · Svelte · Tauri · Next.js", "Data      PostgreSQL · Redis · Cloudflare R2"]
-    L += [row(f"{c}     {i}") for c, i in zip(cat, info)] + [row()]
+    L += [row(f"{c}     {i}") for c, i in zip(logo, info)] + [row()]
 
     L += [heading("systemctl status kawaii-*"), row()]
     for name, url, about in SERVICES:
